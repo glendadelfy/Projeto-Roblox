@@ -71,4 +71,15 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textDev" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_Deslogar"
+        android:layout_width="351dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/btn_fundo_branco"
+        android:text="DESLOGAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idrm" />
 </androidx.constraintlayout.widget.ConstraintLayout>

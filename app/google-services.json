@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "125053303633",
+    "project_id": "projetoroblox-23c92",
+    "storage_bucket": "projetoroblox-23c92.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125053303633:android:f587034fefafbca5a6b170",
+        "android_client_info": {
+          "package_name": "com.example.projetoroblox"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbMmKXKFRWJt8LirpWoNf3j3GX7jyQUL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125053303633:android:5991b6a819912a03a6b170",
+        "android_client_info": {
+          "package_name": "com.glenda.projetorobloxg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbMmKXKFRWJt8LirpWoNf3j3GX7jyQUL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

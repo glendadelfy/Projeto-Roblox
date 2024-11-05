@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -33,9 +34,23 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures{
+        viewBinding = true
+    }
 }
 
 dependencies {
+    //Dependencia do autenticador...
+    implementation("com.google.firebase:firebase-auth-ktx")
+
+    //Dependencia do banco de dados..
+    implementation("com.google.firebase:firebase-firestore-ktx")
+
+    //Dependencia do armazenamento..
+    implementation("com.google.firebase:firebase-storage-ktx")
+
+    implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
+
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
